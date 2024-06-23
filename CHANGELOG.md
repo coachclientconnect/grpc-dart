@@ -5,6 +5,10 @@
 * Remove dependency on `package:archive`.
 * Move `codec.dart`.
 
+## 3.2.5
+
+* Work around hang during Flutter hot restart by adding default case handler in _GrpcWebConversionSink.add.
+
 ## 3.2.4
 
 * Forward internal `GrpcError` on when throwing while sending a request.
